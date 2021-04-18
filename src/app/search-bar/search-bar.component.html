@@ -1,0 +1,18 @@
+<div class="box">
+  <form (submit)="onFormSubmit($event)">
+    <div class="control has-icons-left">
+      <input
+        placeholder="Enter Search Term"
+        class="input"
+        (input)="term = $event.target.value"
+      />
+      <span class="icon is-small is-left">
+        <i class="fa fa-search"></i>
+      </span>
+    </div>
+  </form>
+</div>
+
+<!-- //wherever the submitted occurs it passes along the search term
+     so we have to make sur that event for that information 
+     to get passed along and communicated to onTerm() -->
