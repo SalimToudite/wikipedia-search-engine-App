@@ -2,7 +2,7 @@
 
 This application was created using the wikipedia API
 
-#App Challenges 
+# App Challenges 
 
 - How to fetch data from an outside API
 - Communication between component ( Parent -> Child & Child -> Parent )
