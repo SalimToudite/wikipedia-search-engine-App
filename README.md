@@ -13,4 +13,5 @@ This application was created using the wikipedia API
 # Hosting
 
  - It was hosted using firebase hosting service 
- - App URL -> https://wikipedia-search-angular.web.app/
+ - [App URL](https://wikipedia-search-angular.web.app/)
+
